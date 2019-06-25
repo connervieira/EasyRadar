@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		208A2ADD22C285B0009EF2E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A2ADC22C285B0009EF2E4 /* AppDelegate.swift */; };
+		208A2ADF22C285B0009EF2E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A2ADE22C285B0009EF2E4 /* ViewController.swift */; };
+		208A2AE122C285B1009EF2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208A2AE022C285B1009EF2E4 /* Assets.xcassets */; };
+		208A2AE422C285B1009EF2E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208A2AE222C285B1009EF2E4 /* Main.storyboard */; };
+		208A2AF022C285B1009EF2E4 /* EasyRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A2AEF22C285B1009EF2E4 /* EasyRadarTests.swift */; };
+		208A2AFB22C285B1009EF2E4 /* EasyRadarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A2AFA22C285B1009EF2E4 /* EasyRadarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		208A2AEC22C285B1009EF2E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 208A2AD122C285B0009EF2E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 208A2AD822C285B0009EF2E4;
+			remoteInfo = EasyRadar;
+		};
+		208A2AF722C285B1009EF2E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 208A2AD122C285B0009EF2E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 208A2AD822C285B0009EF2E4;
+			remoteInfo = EasyRadar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		208A2AD922C285B0009EF2E4 /* EasyRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		208A2ADC22C285B0009EF2E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		208A2ADE22C285B0009EF2E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		208A2AE022C285B1009EF2E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		208A2AE322C285B1009EF2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		208A2AE522C285B1009EF2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208A2AE622C285B1009EF2E4 /* EasyRadar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyRadar.entitlements; sourceTree = "<group>"; };
+		208A2AEB22C285B1009EF2E4 /* EasyRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		208A2AEF22C285B1009EF2E4 /* EasyRadarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRadarTests.swift; sourceTree = "<group>"; };
+		208A2AF122C285B1009EF2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208A2AF622C285B1009EF2E4 /* EasyRadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyRadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		208A2AFA22C285B1009EF2E4 /* EasyRadarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRadarUITests.swift; sourceTree = "<group>"; };
+		208A2AFC22C285B1009EF2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		208A2AD622C285B0009EF2E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208A2AE822C285B1009EF2E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208A2AF322C285B1009EF2E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208A2AD022C285B0009EF2E4 = {
+			isa = PBXGroup;
+			children = (
+				208A2ADB22C285B0009EF2E4 /* EasyRadar */,
+				208A2AEE22C285B1009EF2E4 /* EasyRadarTests */,
+				208A2AF922C285B1009EF2E4 /* EasyRadarUITests */,
+				208A2ADA22C285B0009EF2E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		208A2ADA22C285B0009EF2E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				208A2AD922C285B0009EF2E4 /* EasyRadar.app */,
+				208A2AEB22C285B1009EF2E4 /* EasyRadarTests.xctest */,
+				208A2AF622C285B1009EF2E4 /* EasyRadarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		208A2ADB22C285B0009EF2E4 /* EasyRadar */ = {
+			isa = PBXGroup;
+			children = (
+				208A2ADC22C285B0009EF2E4 /* AppDelegate.swift */,
+				208A2ADE22C285B0009EF2E4 /* ViewController.swift */,
+				208A2AE022C285B1009EF2E4 /* Assets.xcassets */,
+				208A2AE222C285B1009EF2E4 /* Main.storyboard */,
+				208A2AE522C285B1009EF2E4 /* Info.plist */,
+				208A2AE622C285B1009EF2E4 /* EasyRadar.entitlements */,
+			);
+			path = EasyRadar;
+			sourceTree = "<group>";
+		};
+		208A2AEE22C285B1009EF2E4 /* EasyRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				208A2AEF22C285B1009EF2E4 /* EasyRadarTests.swift */,
+				208A2AF122C285B1009EF2E4 /* Info.plist */,
+			);
+			path = EasyRadarTests;
+			sourceTree = "<group>";
+		};
+		208A2AF922C285B1009EF2E4 /* EasyRadarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				208A2AFA22C285B1009EF2E4 /* EasyRadarUITests.swift */,
+				208A2AFC22C285B1009EF2E4 /* Info.plist */,
+			);
+			path = EasyRadarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		208A2AD822C285B0009EF2E4 /* EasyRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208A2AFF22C285B1009EF2E4 /* Build configuration list for PBXNativeTarget "EasyRadar" */;
+			buildPhases = (
+				208A2AD522C285B0009EF2E4 /* Sources */,
+				208A2AD622C285B0009EF2E4 /* Frameworks */,
+				208A2AD722C285B0009EF2E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyRadar;
+			productName = EasyRadar;
+			productReference = 208A2AD922C285B0009EF2E4 /* EasyRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		208A2AEA22C285B1009EF2E4 /* EasyRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208A2B0222C285B1009EF2E4 /* Build configuration list for PBXNativeTarget "EasyRadarTests" */;
+			buildPhases = (
+				208A2AE722C285B1009EF2E4 /* Sources */,
+				208A2AE822C285B1009EF2E4 /* Frameworks */,
+				208A2AE922C285B1009EF2E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				208A2AED22C285B1009EF2E4 /* PBXTargetDependency */,
+			);
+			name = EasyRadarTests;
+			productName = EasyRadarTests;
+			productReference = 208A2AEB22C285B1009EF2E4 /* EasyRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		208A2AF522C285B1009EF2E4 /* EasyRadarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208A2B0522C285B1009EF2E4 /* Build configuration list for PBXNativeTarget "EasyRadarUITests" */;
+			buildPhases = (
+				208A2AF222C285B1009EF2E4 /* Sources */,
+				208A2AF322C285B1009EF2E4 /* Frameworks */,
+				208A2AF422C285B1009EF2E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				208A2AF822C285B1009EF2E4 /* PBXTargetDependency */,
+			);
+			name = EasyRadarUITests;
+			productName = EasyRadarUITests;
+			productReference = 208A2AF622C285B1009EF2E4 /* EasyRadarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		208A2AD122C285B0009EF2E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = V0LT;
+				TargetAttributes = {
+					208A2AD822C285B0009EF2E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					208A2AEA22C285B1009EF2E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 208A2AD822C285B0009EF2E4;
+					};
+					208A2AF522C285B1009EF2E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 208A2AD822C285B0009EF2E4;
+					};
+				};
+			};
+			buildConfigurationList = 208A2AD422C285B0009EF2E4 /* Build configuration list for PBXProject "EasyRadar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 208A2AD022C285B0009EF2E4;
+			productRefGroup = 208A2ADA22C285B0009EF2E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				208A2AD822C285B0009EF2E4 /* EasyRadar */,
+				208A2AEA22C285B1009EF2E4 /* EasyRadarTests */,
+				208A2AF522C285B1009EF2E4 /* EasyRadarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		208A2AD722C285B0009EF2E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208A2AE122C285B1009EF2E4 /* Assets.xcassets in Resources */,
+				208A2AE422C285B1009EF2E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208A2AE922C285B1009EF2E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208A2AF422C285B1009EF2E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		208A2AD522C285B0009EF2E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208A2ADF22C285B0009EF2E4 /* ViewController.swift in Sources */,
+				208A2ADD22C285B0009EF2E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208A2AE722C285B1009EF2E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208A2AF022C285B1009EF2E4 /* EasyRadarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208A2AF222C285B1009EF2E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208A2AFB22C285B1009EF2E4 /* EasyRadarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		208A2AED22C285B1009EF2E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 208A2AD822C285B0009EF2E4 /* EasyRadar */;
+			targetProxy = 208A2AEC22C285B1009EF2E4 /* PBXContainerItemProxy */;
+		};
+		208A2AF822C285B1009EF2E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 208A2AD822C285B0009EF2E4 /* EasyRadar */;
+			targetProxy = 208A2AF722C285B1009EF2E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		208A2AE222C285B1009EF2E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				208A2AE322C285B1009EF2E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		208A2AFD22C285B1009EF2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		208A2AFE22C285B1009EF2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		208A2B0022C285B1009EF2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EasyRadar/EasyRadar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = EasyRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.EasyRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		208A2B0122C285B1009EF2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EasyRadar/EasyRadar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = EasyRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.EasyRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		208A2B0322C285B1009EF2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = EasyRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.EasyRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyRadar.app/Contents/MacOS/EasyRadar";
+			};
+			name = Debug;
+		};
+		208A2B0422C285B1009EF2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = EasyRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.EasyRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyRadar.app/Contents/MacOS/EasyRadar";
+			};
+			name = Release;
+		};
+		208A2B0622C285B1009EF2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = EasyRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.EasyRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EasyRadar;
+			};
+			name = Debug;
+		};
+		208A2B0722C285B1009EF2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = EasyRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.EasyRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EasyRadar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		208A2AD422C285B0009EF2E4 /* Build configuration list for PBXProject "EasyRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208A2AFD22C285B1009EF2E4 /* Debug */,
+				208A2AFE22C285B1009EF2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		208A2AFF22C285B1009EF2E4 /* Build configuration list for PBXNativeTarget "EasyRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208A2B0022C285B1009EF2E4 /* Debug */,
+				208A2B0122C285B1009EF2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		208A2B0222C285B1009EF2E4 /* Build configuration list for PBXNativeTarget "EasyRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208A2B0322C285B1009EF2E4 /* Debug */,
+				208A2B0422C285B1009EF2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		208A2B0522C285B1009EF2E4 /* Build configuration list for PBXNativeTarget "EasyRadarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208A2B0622C285B1009EF2E4 /* Debug */,
+				208A2B0722C285B1009EF2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 208A2AD122C285B0009EF2E4 /* Project object */;
+}
