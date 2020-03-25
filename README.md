@@ -2,9 +2,6 @@
 EasyRadar is a program used to quickly calculate the exact speed of an object given a distance, temperature, and length of time.
 ![EasyRadar Logo](https://v0lttech.com/assets/img/easyradarlogo.png)
 
-## License
-Licensed under the V0LT Source Code License: https://v0lttech.com/files/documents/licenses/VoltSourceCodeLicense.pdf
-
 ## Binaries
 A complied version can be downloaded at https://v0lttech.com/easyradar.php
 
