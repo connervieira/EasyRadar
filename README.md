@@ -10,7 +10,7 @@ A complied version can be downloaded at https://v0lttech.com/easyradar.php
 EasyRadar doesn't require an internet connection at any time. All calculations are done entirely offline.
 
 ### Dark And Light Mode
-EasyRadar has full support for Mojave's light and dark mode, so it will always fit in beautifully with the rest of your applications. It also uses all native UI elements, so it won't look out of place.
+EasyRadar has full support for the light and dark mode built into MacOS Mojave and later, so it will always fit in beautifully with the rest of your applications. It also uses all native UI elements, so it won't look out of place.
 
 ### Built In Manual
 If at any time you need a quick reminder on how to use Easy Radar, a quick glance at the built in help menu should get you on your way. If you need extra help with a specific step from the help menu, you can get even more information for that specific section by clicking the adjacent question mark.
